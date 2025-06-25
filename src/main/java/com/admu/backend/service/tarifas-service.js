@@ -1,4 +1,4 @@
-// Servicio para obtener tarifas desde la API de Spring Boot
+  // Servicio para obtener tarifas desde la API de Spring Boot
 const obtenerTarifasDesdeAPI = async () => {
   try {
     const response = await fetch('http://localhost:8080/api/tarifas');
